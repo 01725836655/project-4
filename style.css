@@ -98,7 +98,68 @@ nav ul li a:hover,nav ul li a.active{
      background-repeat: no-repeat;
      background-size: cover;
      height: 90vh;
-     
-
-
  }
+
+ /* main section code start */
+
+ #First-section{
+     background-color: #29455e;
+     padding-bottom: 30px;
+ }
+ .services-title{
+     text-align: center;
+     font-size: 28px;
+     font-weight: bold;
+     padding: 30px 0;
+     letter-spacing: 0.2em;
+     color: white;
+ }
+ #services-parent{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 25px;
+      width: 1100px;
+     margin: 0 auto;    
+ }
+ .single-div{
+      text-align: center;
+      margin:20px 10px;
+      color: black;
+      box-shadow: 5px 5px 10px gray;
+      padding: 30px  20px;
+      border: 2px solid green;
+      border-radius: 5px;
+      background-color: white;
+      
+ }
+ .single-div i{
+     font-size: 30px;
+     color: #81a5a5;
+ }
+ .single-div h3{
+    margin: 10px 0 ;
+    font-weight: bold;
+ }
+
+ /* first section  media coding start */
+
+ @media only screen and (max-width: 688px) {
+    #services-parent{
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         grid-gap: 10px;
+         width: 100%;
+
+    }  
+ }
+ @media only screen and(min-width: 689px) and (max-width: 1099px) {
+      
+    #services-parent{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        width: 100%;
+
+   }  
+ }
+ 
