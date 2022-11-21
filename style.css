@@ -140,6 +140,223 @@ nav ul li a:hover,nav ul li a.active{
     margin: 10px 0 ;
     font-weight: bold;
  }
+ /* second section code start */
+
+ #second-section{
+           background-color:  #154360 ; 
+           padding: 50px 0 100px 0;
+ }
+ .title-area{
+      text-align:center;
+      font-size: 20px;
+      color:yellow;
+      letter-spacing: 0.2em;
+ }
+ #smart-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+ }
+ .smart-text{
+    color: white;
+ }
+ .smart-text h2{
+    margin:20px 0 ;
+    font-size: 30px;
+ }
+ .smart-text a{
+       text-decoration: none;
+       font-size: 20px;
+       background-color: bisque;
+       color: black;
+       padding: 10px 30px;
+       border-radius: 5px;
+       margin-top: 40px;
+       display: inline-block;
+ }
+
+ /* Third section code start */
+ #About-section-container{
+    background-image: url(back-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   padding: 150px 0;  
+ }
+ .About-section-parent{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-left: 100px;
+      margin-right: 100px; 
+      gap: 30px;  
+      color:wheat;
+ }
+ .About-vanilla{
+    color: white;
+    
+ }
+ .About-vanilla h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    /* color: yellow; */
+ }
+ .About-vanilla ul{
+    margin-top: 10px;
+    margin-left: 12px;
+    padding: 20px 0;
+ }
+ .About-vanilla a{
+    text-decoration: none;
+    margin-top: 20px;
+    display: inline-block;
+    background-color: yellow;
+    padding: 10px 30px;
+    color: black;
+    border-radius: 5px;
+    /* font-weight: bold; */
+ }
+ .About-section-single-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 25px;
+    
+ }
+ .About-section-single-div{
+    background-color:white;
+    color: black;
+    padding:40px 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid green;
+    box-shadow: 5px 5px 5px #089308;
+ }
+ .About-section-single-div h4{
+    margin-bottom: 20px;
+ }
+ /* fourth section code start */
+ #fourth-section{
+    background-color:#154360 ;
+    padding: 100px 0;
+    color: white;
+ }
+ .Advice-parent{
+    display: flex;
+    gap: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+ }
+ .Advice-img-box img{
+    width: 300px;
+   
+ }
+ .Advice-single-div p{
+     margin: 20px 0;
+    line-height: 1.5;
+    text-align: justify;
+ }
+ .Advice-single-div h3{
+    font-size: 30px;
+    border-bottom:2px solid red;
+    padding-bottom: 20px;
+    
+}
+ .Advice-single-div h4{
+    font-size: 20px ;
+    margin-top: 10px;
+ }
+ .Advice-single-div a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 5px 20px;
+    border-radius: 40px;
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3;
+    
+ }
+ .Advice-icon{
+    text-align: center;
+   
+ }
+ .Advice-icon a{
+    margin: 0 5px;
+    border: 1px solid black;
+
+ }
+ .Advice-single-div a:hover{
+    background-color: wheat;
+ }
+
+ /* contact section start */
+
+ #contact-section{
+        background-image: linear-gradient(#050b185e,#4089C7),url(back.jpg);
+        padding: 100px 0;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+ }    
+ form{
+   background-color: #92adc465;
+   max-width: 50%;
+   margin: 0 auto;
+   padding: 50px 50px;
+   border-radius: 5px;
+   border: 6px solid #91aa91;
+ } 
+ form h2{
+   text-align: center;
+   color: white;
+   font-size: 30px;
+   letter-spacing: 0.1em;
+ }
+ form p{
+   color: white;
+   text-align: center;
+   margin: 30px 0;
+ }
+ .form-input{
+   display: block;
+   width: 100%;
+   height: 40px;
+   margin: 50px 0;
+   background: none;
+   border: none;
+   outline: none;
+   color: white;
+   border-bottom: 3px solid #91aa91;
+   font-size: 18px;
+
+ }
+ .form-input::placeholder{
+   color: #91aa91;
+ }
+ .input-submit{
+   display: block;
+   margin: 0 auto;
+   padding: 5px 40px;
+   font-size: 20px;
+   background: none;
+   color: white;
+   outline-style: ridge;
+   cursor: pointer;
+   transition: 0.5s;
+
+ }
+ .input-submit:hover{
+   background-color: #154360;
+ }
+ 
+ 
+
+
 
  /* first section  media coding start */
 
@@ -151,6 +368,56 @@ nav ul li a:hover,nav ul li a.active{
          width: 100%;
 
     }  
+    #smart-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+     }
+     .smart-image img{
+        width: 100%;
+        margin-bottom:50px ;
+     }
+     /* About section code start */
+     .About-section-parent{
+        display: block;
+        margin-left: 30px;
+        margin-right: 30px;     
+   }
+   .About-section-single-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 15px;
+    margin-top: 50px;
+    
+ }
+ /* finnished about section code */
+ /* About section code start */
+ .Advice-parent{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+ }
+ .Advice-icon{
+   text-align: left;
+ }
+ .Advice-icon a{
+    margin: 10px 5px;
+ }
+ .Advice-single-div h3{
+    padding-top: 50px;
+ }
+ /* Advice section code finished */
+
+ /* start contact section code */
+ form{
+   background-color: #92adc465;
+   max-width: 90%;
+   padding: 20px 30px;
+   
+  
+ } 
+
  }
  @media only screen and(min-width: 689px) and (max-width: 1099px) {
       
@@ -161,5 +428,49 @@ nav ul li a:hover,nav ul li a.active{
         width: 100%;
 
    }  
+   #smart-parent{
+    display: block;
+    margin-left: 70px;
+    margin-right: 70px;
+    
+ }
+ .smart-image img{
+    width: 100%;
+    margin-bottom: 70px;
+ }
+ .About-section-parent{
+    display: block;
+    margin-left: 70px;
+    margin-right: 70px; 
+   
+   }
+   .About-section-single-parent{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-gap: 20px;
+    margin-top: 50px; 
+ }
+  /* finnished about section code */
+  /* About section code start */
+  .Advice-parent{
+    display: flex;
+    margin-left: 70px;
+    margin-right: 70px;
+ }
+ .Advice-icon{
+    text-align: center;
+  }
+  .Advice-icon a{
+     margin: 10px 5px;
+  }
+  /* finished advice section code */
+  form{
+   background-color: #678096;
+   max-width: 90%;
+   padding: 40px 50px;
+   
+  
+ } 
+
  }
  
