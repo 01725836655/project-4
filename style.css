@@ -591,6 +591,28 @@ nav ul li a:hover,nav ul li a.active{
    margin-bottom: 70px;
  }
 
+ /* Take care section finished */
+
+ /* footer section start */
+ .footer-parent{
+  display: block;
+  margin-left: 30px;
+  margin-right: 30px;
+ }
+ .single-footer{
+  text-align: center;
+ }
+ .single-footer-2{
+    margin-top: 20px;
+ }
+ .single-footer-3 ul{
+   display: flex;
+   justify-content: center;
+
+ }
+
+ 
+
 
  }
 
@@ -669,5 +691,16 @@ nav ul li a:hover,nav ul li a.active{
  .Taken-div{
    margin-bottom: 80px;
  }
+
+  /* Take care section finished */
+
+ /* footer section start */
+ .footer-parent{
+     display: block;
+     margin-left: 70px;
+     margin-right: 70px;
+     
+ }
+
  }
  
